@@ -11,11 +11,11 @@ namespace NotesApplication{
         public string content {set; get;}
 
         // Constructor of the note
-        public Note(int noteId, DateTime noteDate, string noteTopic, string noteContent){
-            id = noteId;
-            date = noteDate;
-            topic = noteTopic;
-            content = noteContent;
+        public Note(int Id, DateTime Date, string Topic, string Content){
+            id = Id;
+            date = Date;
+            topic = Topic;
+            content = Content;
         }
     }
 }
